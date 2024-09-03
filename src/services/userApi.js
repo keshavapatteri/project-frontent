@@ -26,3 +26,18 @@ export const userSignup = async (data) => {
     }
   };
 
+
+  //for booking
+  export const userBooking = async (data) => {
+    try {
+      const response = await axiosInstance.post("/booking/create", data, {
+        withCredentials: true,
+      });
+      return response?.data;
+    } catch (error) {
+      console.log(error);
+      throw error;
+    }
+  };
+
+  

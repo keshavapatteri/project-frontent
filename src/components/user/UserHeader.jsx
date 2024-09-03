@@ -17,7 +17,7 @@ const UserHeader = () => {
             <nav className='flex gap-20 font-semibold'>
                 <Link to={"/"}>Home</Link>
                 <Link to={"/about"}>About</Link>
-                <Link to={"/carlist"}>Carlist</Link>
+                <Link to={"/user/car"}>car</Link>
               
             </nav>
             <div className="flex iteams-center gap">

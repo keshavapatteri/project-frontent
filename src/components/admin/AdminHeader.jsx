@@ -24,7 +24,7 @@ const AdminHeader = () => {
                 <Link to={"/about"}>About</Link>
                 <Link to={"/contact"}>Contact-US</Link>
                 <Link to={"/admin/user"}>USER</Link>
-                <Link to={"/admin/car"}>CAR</Link>
+                <Link to={"/admin/car"}>CARPAGE</Link>
                 <Link to={"/admin/review"}>REVIEW</Link>
             </nav>
             <div className="flex items-center gap">

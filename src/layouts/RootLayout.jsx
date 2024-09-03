@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import { Outlet } from 'react-router-dom'
 import Footer from '../components/Footer'
-import AboutPage from '../pages/user/AboutPage'
+import AboutPage from '../pages/Home/AboutPage'
 
 
 const RootLayout = () => {
